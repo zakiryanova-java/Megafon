@@ -1,11 +1,11 @@
 package ru.itpark.model;
 
-public class TarrifPishi extends BaseTarrif {
+public class TariffPishi extends BaseTariff {
     private int internetTotal;
     private String internetMessengers;
     private int sms;
 
-    public TarrifPishi(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, int internetTotal, String internetMessengers, int sms) {
+    public TariffPishi(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, int internetTotal, String internetMessengers, int sms) {
         super(id, name, price, callDuration, callAcrossMegafon, incomingCall, specialTerm, megafonTV, litRes, antivirusEsetNod32, serviceArea);
         this.internetTotal = internetTotal;
         this.internetMessengers = internetMessengers;

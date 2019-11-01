@@ -1,10 +1,10 @@
 package ru.itpark;
 
-import ru.itpark.model.TarrifSmotri;
+import ru.itpark.model.TariffSmotri;
 
 public class Main {
     public static void main(String[] args) {
-        TarrifSmotri tarrifSmotri = new TarrifSmotri(1,"Включайся Смотри",650, 1200,"Безлимитно","Бесплатно", "Выгода", "Бесплатно", "Бесплатно", "Бесплатно", "Россия", "Безлимитно", 30, "Бесплатно", 300, "Бесплатно");
+        TariffSmotri tariffSmotri = new TariffSmotri(1,"Включайся Смотри",650, 1200,"Безлимитно","Бесплатно", "Выгода", "Бесплатно", "Бесплатно", "Бесплатно", "Россия", "Безлимитно", 30, "Бесплатно", 300, "Бесплатно");
         System.out.println(tarrifSmotri);
     }
 

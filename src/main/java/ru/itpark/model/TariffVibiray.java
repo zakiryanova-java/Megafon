@@ -1,12 +1,12 @@
 package ru.itpark.model;
 
-public class TarrifVibiray extends BaseTarrif {
+public class TariffVibiray extends BaseTariff {
     private int internet;
     private int sms;
     private int cashback;
     private String megafonPress;
 
-    public TarrifVibiray(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, int internet, int sms, int cashback, String megafonPress) {
+    public TariffVibiray(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, int internet, int sms, int cashback, String megafonPress) {
         super(id, name, price, callDuration, callAcrossMegafon, incomingCall, specialTerm, megafonTV, litRes, antivirusEsetNod32, serviceArea);
         this.internet = internet;
         this.sms = sms;

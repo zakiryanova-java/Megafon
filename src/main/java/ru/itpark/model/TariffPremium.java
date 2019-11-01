@@ -1,11 +1,11 @@
 package ru.itpark.model;
 
-public class TarrifPremium extends TarrifObshchaysya {
+public class TariffPremium extends TariffObshchaysya {
     private String smsMegafon;
     private int smsOther;
     private String megafonProtect;
 
-    public TarrifPremium(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, String internet, int cashback, String megafonPress, String smsMegafon, int smsOther, String megafonProtect) {
+    public TariffPremium(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, String internet, int cashback, String megafonPress, String smsMegafon, int smsOther, String megafonProtect) {
         super(id, name, price, callDuration, callAcrossMegafon, incomingCall, specialTerm, megafonTV, litRes, antivirusEsetNod32, serviceArea, internet, cashback, megafonPress);
         this.smsMegafon = smsMegafon;
         this.smsOther = smsOther;

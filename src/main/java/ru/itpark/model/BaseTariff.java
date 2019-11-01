@@ -1,6 +1,6 @@
 package ru.itpark.model;
 
-public class BaseTarrif {
+public class BaseTariff {
     private int id;
     private String name;
     private int price;
@@ -13,7 +13,7 @@ public class BaseTarrif {
     private String antivirusEsetNod32;
     private String serviceArea;
 
-    public BaseTarrif(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea) {
+    public BaseTariff(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -30,7 +30,7 @@ public class BaseTarrif {
 
     @Override
     public String toString() {
-        return "BaseTarrif{" +
+        return "BaseTariff{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
