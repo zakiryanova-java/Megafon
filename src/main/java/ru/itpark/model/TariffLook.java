@@ -1,10 +1,10 @@
 package ru.itpark.model;
 
-public class TariffSmotri extends TariffObshchaysya {
+public class TariffLook extends TariffCommunicate {
        private int sms;
        private String megafonProtect;
 
-    public TariffSmotri(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, String internet, int cashback, String megafonPress, int sms, String megafonProtect) {
+    public TariffLook(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, String internet, int cashback, String megafonPress, int sms, String megafonProtect) {
         super(id, name, price, callDuration, callAcrossMegafon, incomingCall, specialTerm, megafonTV, litRes, antivirusEsetNod32, serviceArea, internet, cashback, megafonPress);
         this.sms = sms;
         this.megafonProtect = megafonProtect;
@@ -12,7 +12,7 @@ public class TariffSmotri extends TariffObshchaysya {
 
     @Override
     public String toString() {
-        String output= super.toString()+"\nTariffSmotri{" +
+        String output= super.toString()+"\nTariffLook{" +
                 "sms=" + sms +
                 ", megafonProtect='" + megafonProtect + '\'' +
                 '}';

@@ -1,11 +1,11 @@
 package ru.itpark.model;
 
-public class TariffObshchaysya extends BaseTariff {
+public class TariffCommunicate extends BaseTariff {
     private String internet;
     private int cashback;
     private String megafonPress;
 
-    public TariffObshchaysya(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, String internet, int cashback, String megafonPress) {
+    public TariffCommunicate(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, String internet, int cashback, String megafonPress) {
         super(id, name, price, callDuration, callAcrossMegafon, incomingCall, specialTerm, megafonTV, litRes, antivirusEsetNod32, serviceArea);
         this.internet = internet;
         this.cashback = cashback;
@@ -14,7 +14,7 @@ public class TariffObshchaysya extends BaseTariff {
 
     @Override
     public String toString() {
-        String output=super.toString()+ "\nTariffObshchaysya{" +
+        String output=super.toString()+ "\nTariffCommunicate{" +
                 "internet='" + internet + '\'' +
                 ", cashback=" + cashback +
                 ", megafonPress='" + megafonPress + '\'' +

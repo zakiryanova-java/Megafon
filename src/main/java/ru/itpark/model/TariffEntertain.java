@@ -1,12 +1,12 @@
 package ru.itpark.model;
 
-public class TariffRazvlekaysya extends BaseTariff {
+public class TariffEntertain extends BaseTariff {
     private int internetTotal;
     private String internetVideoMusic;
     private String internetSocial;
     private int cashback;
 
-    public TariffRazvlekaysya(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, int internetTotal, String internetVideoMusic, String internetSocial, int cashback) {
+    public TariffEntertain(int id, String name, int price, int callDuration, String callAcrossMegafon, String incomingCall, String specialTerm, String megafonTV, String litRes, String antivirusEsetNod32, String serviceArea, int internetTotal, String internetVideoMusic, String internetSocial, int cashback) {
         super(id, name, price, callDuration, callAcrossMegafon, incomingCall, specialTerm, megafonTV, litRes, antivirusEsetNod32, serviceArea);
         this.internetTotal = internetTotal;
         this.internetVideoMusic = internetVideoMusic;

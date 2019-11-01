@@ -1,6 +1,6 @@
 package ru.itpark.model;
 
-public class TariffPremium extends TariffObshchaysya {
+public class TariffPremium extends TariffCommunicate {
     private String smsMegafon;
     private int smsOther;
     private String megafonProtect;
